@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+/* homapage */
+header {
+  width: 100%;
+  height: 100vh;
+  padding: 0.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.65);
+}
+video {
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.container .subtitle {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container .subtitle h1 {
+  color: #fe6100;
+}
+
+.navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #fe6100;
+}
+
+/* talent */
+.talents {
+  width: 100%;
+  height: 250vh;
+  color: white;
+  background-attachment: fixed;
+  background-image: url("../img/sushiroll/bg-sushiroll.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  padding: 50px;
+}
+
+.container .title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.talent {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.profile {
+  width: 25%;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.508);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.profile .imgwrap .kwb {
+  width: 100%;
+}
+
+.profile img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.card .name-talent {
+  font-size: 25px;
+}
+
+.card .btn {
+  padding-top: 20px;
+}
+
+.card .btn button {
+  width: 80%;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all linear 0.3s;
+}
+
+.profile:hover {
+  transform: scale(1.2);
+  border: 2px solid white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.card .btn button:hover {
+  color: white;
+  background: orange;
+  cursor: pointer;
+}
+
+.event {
+  width: 35%;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.events .container .poster {
+  display: flex;
+  justify-content: center;
+}
+
+.event .imgwrap img {
+  width: 85%;
+  align-items: center;
+}
+
+.event:hover {
+  transform: scale(1.2);
+}
+/* end */
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 105vh;
+  background-color: black;
+  color: white;
+  padding-top: 80px;
+}
+
+.footer .container .footer-url {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-url .bag1 h4,
+.footer-url .bag2,
+.footer-url p {
+  font-weight: bold;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.bag1 {
+  margin-right: 30%;
+}
+
+.footer-url p {
+  margin-right: 10px;
+}
+
+.bag2 a {
+  padding: 5px;
+}
+
+.bag2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.bag2 a:hover {
+  color: #fe6100;
+}
+
+.container .incontainer img {
+  width: 15%;
+  border: 2px solid white;
+}
+
+.container .incontainer {
+  display: flex;
+  align-items: center;
+}
+
+.container .incontainer .social {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.container .incontainer .social ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.container .incontainer .social ul li a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.container .incontainer .social ul li i {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.container .incontainer .maps {
+  margin-left: 50px;
+}
+
+.container .incontainer .social ul li a:hover {
+  color: #fe6100;
+}
+
+.container .incontainer .social ul li:hover {
+  color: #fe6100;
+}

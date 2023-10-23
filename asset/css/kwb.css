@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-header {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/kwb/kwb-bg.jpg");
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-header img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container-header a {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-header h1 {
+  font-size: 55px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.members {
+  width: 100%;
+  height: 110vh;
+  background: url("../img/kwb/kwb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.members {
+  padding: 20px;
+}
+
+.container .title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container .member {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container .member .profile {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 25%;
+  height: 62vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.508);
+  transition: all 0.3s ease;
+}
+
+.container .member .profile img {
+  width: 100%;
+  border-radius: 10 0;
+  transition: all linear 0.7s;
+}
+
+/* hover img */
+
+.container .member .profile img.hover-img {
+  width: 100%;
+  border-radius: 10 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.container .member .profile:hover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.container .member .profile:hover img.hover-img {
+  position: relative;
+  opacity: 1;
+}
+
+/* end hover img*/
+
+.container .member .profile {
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container .member .profile .cardwrap h3 {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  opacity: 1;
+}
+
+.container .member .profile:hover h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.container .member .profile a i {
+  color: white;
+  font-size: 50px;
+  opacity: 0;
+}
+
+.container .member .profile:hover a i {
+  opacity: 1;
+}
+
+/* end--- ngide dikit wkwk */
+
+.footer {
+  width: 100%;
+  height: 45vh;
+  background-color: black;
+  color: white;
+  padding-top: 90px;
+}
+
+.footer .container h4 {
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.footer .container h4:hover {
+  color: #fe6100;
+  font-weight: bold;
+}
+
+.container .incontainer img {
+  width: 15%;
+}
+
+.container .incontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .incontainer .social {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.container .incontainer .social ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.container .incontainer .social ul li a {
+  text-decoration: none;
+  padding-left: 10px;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.container .incontainer .social ul li i {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.container .incontainer .social ul li a:hover {
+  color: #fe6100;
+}
+
+.container .incontainer .social ul li:hover {
+  color: #fe6100;
+}
